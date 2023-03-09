@@ -1,0 +1,545 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1676737076230067, "dur": 1189423, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737076230300, "dur": 10905, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737076241207, "dur": 32249, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737076273458, "dur": 464400, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737076737859, "dur": 667017, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737077404877, "dur": 14612, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737077419884, "dur": 36, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1676737076607930, "dur": 117417, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676737076608770, "dur": 37115, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676737076712187, "dur": 3569, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676737076715758, "dur": 9584, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676737076716329, "dur": 8586, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676737076728942, "dur": 1181, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1676737076728288, "dur": 1855, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737077420023, "dur": 156, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1676737076770597, "dur":968, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737076771583, "dur":98, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1676737076771691, "dur":17, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1676737076771708, "dur":382, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1676737076772116, "dur":735, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737076772851, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386505, "dur":119, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386624, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386636, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386641, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386647, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386650, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386656, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386658, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386663, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386664, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386669, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386670, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386677, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386679, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386684, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386686, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386690, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386698, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077386728, "dur":1106, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1676737076772684, "dur":194, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076772880, "dur":3573, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076776460, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676737076776462, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076776546, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676737076776549, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076777232, "dur":6859, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1676737076784113, "dur":7072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676737076791188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076791194, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":1, "ts":1676737076791781, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676737076791877, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076791882, "dur":174703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1676737076966635, "dur":21990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737076988627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737076988632, "dur":71836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077060493, "dur":29435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077089932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077089938, "dur":9219, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077099184, "dur":1200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077100403, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077100409, "dur":2999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077103433, "dur":16894, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077120329, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077120333, "dur":965, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077121323, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077121404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077121408, "dur":583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077122016, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077122522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077122525, "dur":929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077123478, "dur":54597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077178079, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077178094, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077178881, "dur":20806, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077199690, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077199697, "dur":564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077200285, "dur":140914, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077341203, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1676737077341209, "dur":757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1676737077341993, "dur":44502, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076772802, "dur":213, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076773015, "dur":3498, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076776513, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676737076776627, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076779487, "dur":8874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1676737076788409, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676737076788501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076788538, "dur":6994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1676737076795585, "dur":2300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076797887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076798041, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076799066, "dur":3241, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1676737076802310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076802313, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1676737076803352, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076803480, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076803774, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076804458, "dur":16297, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076820759, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076820765, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076821351, "dur":26935, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076848290, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076848296, "dur":1467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076849788, "dur":18789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076868580, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076868585, "dur":2154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076870769, "dur":16936, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076887709, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076887715, "dur":711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076888453, "dur":35283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076923740, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076923746, "dur":8803, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076932575, "dur":847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076933426, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076933431, "dur":2353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076935811, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076936001, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076936005, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076938631, "dur":15725, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076954359, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076954364, "dur":12210, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076966606, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076966708, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076966713, "dur":905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076967644, "dur":20133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737076987781, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737076987787, "dur":72777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077060591, "dur":25250, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077085845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077085851, "dur":13445, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077099325, "dur":16166, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077115508, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077115514, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077116906, "dur":19552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077136460, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077136464, "dur":522, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077137010, "dur":95880, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077232894, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077232899, "dur":1009, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077233933, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077234058, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077234062, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077234576, "dur":2863, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077237442, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077237449, "dur":2343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077239816, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077239907, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077239911, "dur":658, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077240594, "dur":10245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077250841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077251341, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1676737077251854, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676737077251880, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077251883, "dur":1304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":2, "ts":1676737077253213, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676737077253238, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1676737077253242, "dur":115639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1676737077368906, "dur":17608, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076772706, "dur":212, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076772919, "dur":3590, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076776510, "dur":8836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676737076785350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076785543, "dur":660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676737076786249, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676737076786338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076786373, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1676737076787898, "dur":6923, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676737076794824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076794829, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1676737076795480, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1676737076795572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076795575, "dur":1832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1676737076797452, "dur":82958, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737076880423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076880428, "dur":21252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737076901731, "dur":52687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737076954420, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076954423, "dur":12243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737076966692, "dur":17751, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737076984447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737076984453, "dur":76257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077060736, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077060841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077060845, "dur":8585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077069459, "dur":25314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077094777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077094783, "dur":6207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077101016, "dur":17929, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077118947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077118952, "dur":797, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077119774, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077119867, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077119872, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077120345, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077120421, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077120424, "dur":1003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077121452, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077121749, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077121752, "dur":626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077122403, "dur":670, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077123075, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077123078, "dur":988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077124112, "dur":34348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077158463, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077158469, "dur":506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077159000, "dur":48322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077207324, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077207329, "dur":704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077208058, "dur":134019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077342079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1676737077342084, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1676737077344104, "dur":42389, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737076772732, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737076772948, "dur":3564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737076776513, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676737076776956, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737076778807, "dur":187805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1676737076966660, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737076966768, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737076966772, "dur":8579, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737076975383, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737076975549, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737076975553, "dur":85000, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077062192, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077062318, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077062323, "dur":18723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077081078, "dur":21161, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077102242, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077102247, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077104180, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077104306, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077104310, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077105494, "dur":29741, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077135238, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077135244, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077135799, "dur":119524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077255325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077255329, "dur":824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1676737077256180, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676737077256206, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077256210, "dur":2537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":4, "ts":1676737077258776, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676737077258802, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077258806, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676737077259837, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676737077259920, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077259925, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":4, "ts":1676737077260648, "dur":867, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1676737077261519, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077261526, "dur":629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1676737077262181, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676737077262209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077262212, "dur":696, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676737077262932, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676737077262958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077262961, "dur":680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/resources.assets" }}
+,{ "pid":12345, "tid":4, "ts":1676737077263667, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676737077263699, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1676737077263703, "dur":60106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level3.resS" }}
+,{ "pid":12345, "tid":4, "ts":1676737077323836, "dur":62660, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076772759, "dur":227, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076772987, "dur":3467, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076776460, "dur":24055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676737076800520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076800963, "dur":598, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1676737076801602, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1676737076801692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076801820, "dur":8742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1676737076810616, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076810717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076810755, "dur":516, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076811324, "dur":30124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076841452, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076841475, "dur":1999, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076843502, "dur":18059, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076861565, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076861588, "dur":1048, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076862936, "dur":20803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076883744, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076883750, "dur":561, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076884337, "dur":17638, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076901978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076901983, "dur":1011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076903030, "dur":15160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076918194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076918199, "dur":17064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076935296, "dur":174, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076935472, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076935477, "dur":4225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076939726, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076939834, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076939839, "dur":26539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076966409, "dur":22365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737076988776, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737076988780, "dur":71627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077060439, "dur":20836, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077081278, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077081283, "dur":565, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077081881, "dur":24714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077106599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077106605, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077107339, "dur":15703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077123045, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077123049, "dur":942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077124016, "dur":169007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077293028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077293036, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1676737077296460, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676737077296488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077296493, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level2.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676737077297771, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676737077297797, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077297800, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level1.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676737077299308, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1676737077299335, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077299345, "dur":713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level1" }}
+,{ "pid":12345, "tid":5, "ts":1676737077300082, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1676737077300107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077300126, "dur":860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1676737077301010, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676737077301039, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077301044, "dur":2733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1676737077303807, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676737077303896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1676737077303902, "dur":480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/boot.config" }}
+,{ "pid":12345, "tid":5, "ts":1676737077304407, "dur":82089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737076772899, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737076772899, "dur":3612, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737076776512, "dur":10368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676737076786883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737076786888, "dur":774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1676737076787709, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1676737076787808, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737076787813, "dur":176361, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1676737076964224, "dur":24838, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737076989064, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737076989068, "dur":71396, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077060489, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077060901, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077060909, "dur":6374, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077067310, "dur":33889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077101201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077101206, "dur":8913, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077110146, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077110325, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077110330, "dur":641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077110994, "dur":93393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077204391, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077204397, "dur":780, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077205202, "dur":1666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077206871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077206877, "dur":1687, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077208714, "dur":26567, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077235283, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077235289, "dur":509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077235822, "dur":149952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077385777, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1676737077385782, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1676737077386479, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1676737077386480, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076773007, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076773007, "dur":3503, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076776511, "dur":245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676737076776758, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076778583, "dur":8490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1676737076787116, "dur":6932, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676737076794052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076794058, "dur":930, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1676737076795041, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1676737076795136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076795140, "dur":6189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1676737076801385, "dur":22990, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676737076824379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076824384, "dur":997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars.exe" }}
+,{ "pid":12345, "tid":7, "ts":1676737076825406, "dur":16634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076842043, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076842047, "dur":903, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076842977, "dur":24228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076867209, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076867215, "dur":676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076867916, "dur":20705, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076888623, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076888660, "dur":842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076889528, "dur":17887, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076907419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076907424, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076907978, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076908076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076908080, "dur":24306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076932413, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076932535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076932540, "dur":2218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076934788, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076935061, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076935066, "dur":707, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076935798, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076935902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076935905, "dur":2693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076938626, "dur":364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076938993, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076938998, "dur":547, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076939568, "dur":40707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737076980279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737076980285, "dur":80013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077060333, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077060497, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077060502, "dur":3087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077063615, "dur":18055, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077081672, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077081677, "dur":16435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077098144, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077098304, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077098309, "dur":845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077099181, "dur":18414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077117597, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077117603, "dur":493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077118121, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077118261, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077118265, "dur":507, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077118794, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077119080, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077119084, "dur":901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077120008, "dur":422, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077120444, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077120448, "dur":1436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077121911, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077121994, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077121998, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077122487, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077122647, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077122651, "dur":595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077123272, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077123531, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077123534, "dur":917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077124476, "dur":57322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077181802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077181807, "dur":874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077182711, "dur":66089, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077248803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077248808, "dur":804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":7, "ts":1676737077249637, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1676737077249663, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077249696, "dur":619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":7, "ts":1676737077250337, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676737077250361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077250364, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676737077251369, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676737077251395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077251398, "dur":573, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676737077251995, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676737077252018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077252021, "dur":2856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":7, "ts":1676737077254905, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676737077254931, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077254934, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1676737077256217, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676737077256243, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1676737077256245, "dur":113591, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1676737077369860, "dur":16645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076773105, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076773106, "dur":3371, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076776478, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676737076776606, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076779196, "dur":8495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676737076787733, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676737076787819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076788197, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1676737076789596, "dur":6810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676737076796410, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076796416, "dur":966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1676737076797429, "dur":18312, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076815745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076815826, "dur":4081, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076819956, "dur":28573, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076848532, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076848536, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076849108, "dur":77436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076926547, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076926553, "dur":8345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076934925, "dur":17266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076952194, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076952200, "dur":15581, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076967804, "dur":16996, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737076984802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737076984807, "dur":75822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077060653, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077060742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077060746, "dur":2692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077063465, "dur":243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077063710, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077063715, "dur":5043, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077068813, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077068930, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077068935, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077070337, "dur":43822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077114163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077114169, "dur":666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077114860, "dur":26488, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077141351, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077141357, "dur":550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077141933, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077142016, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077142020, "dur":726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077142768, "dur":45773, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077188545, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077188551, "dur":693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077189267, "dur":21540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077210827, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077210833, "dur":622, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077211478, "dur":745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077212226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077212230, "dur":1005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077213260, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077213412, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077213419, "dur":532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077213973, "dur":76754, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077290732, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077290740, "dur":891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":8, "ts":1676737077291662, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1676737077291692, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077291696, "dur":5986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level3" }}
+,{ "pid":12345, "tid":8, "ts":1676737077297711, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1676737077297738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077297743, "dur":2183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1676737077299953, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676737077299981, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077299984, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1676737077301460, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676737077301498, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077301501, "dur":1230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1676737077302762, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles E:/GAMEJAM2023/prueba/Root Wars_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1676737077302794, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1676737077302799, "dur":985, "ph":"X", "name": "CopyFiles",  "args": { "detail":"E:/GAMEJAM2023/prueba/Root Wars_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1676737077303811, "dur":82683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1676737077388750, "dur":1545, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1676737077420219, "dur": 1026, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1676737077419875, "dur": 1411, "ph": "X", "name": "Write chrome-trace events", "args": {} },
