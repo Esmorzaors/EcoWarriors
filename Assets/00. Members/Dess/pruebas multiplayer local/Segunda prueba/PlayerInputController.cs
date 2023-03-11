@@ -21,11 +21,22 @@ public class PlayerInputController : MonoBehaviour
     }
 
 
-    //funcion que recoge el PlayerInput para darle al movimiento despues de darle a la A
+    //funcion que recoge el PlayerInput para darle al movimiento 
     public void OnMove(CallbackContext context)
     {
         if (mover != null)
             mover.SetInputVector(context.ReadValue<Vector2>());
+    }
+
+    public void onSkill(CallbackContext context)
+    {
+        print("skill");
+        if (mover.skillActivada)
+        {
+
+        }
+
+
     }
 
 

@@ -11,13 +11,11 @@ public class orb_controller : MonoBehaviour
     public GameObject prefab_instantiate; //Orb to instantiate.
     public float orb_spawn_delay; //Variable to control the delay of the spawn for the next orb.
 
-    // Start is called before the first frame update
     void Start()
     {
         orbs = GameObject.FindGameObjectsWithTag("orb_spawner"); //We assign the orb spawners to the array, based on a tag.
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (is_there_orb) //We check if there's already an orb in game.

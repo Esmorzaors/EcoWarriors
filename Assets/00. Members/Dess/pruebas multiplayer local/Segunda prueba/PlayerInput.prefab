@@ -74,6 +74,22 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: bec625c3-dbb4-4215-a7b9-4610d8ca9c0c
     m_ActionName: Gameplay/Move[/XInputControllerWindows/leftStick,/Keyboard/w,/Keyboard/s]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 5104521904334792781}
+        m_TargetAssemblyTypeName: PlayerInputController, Assembly-CSharp
+        m_MethodName: onSkill
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f7931b74-291f-4837-970a-65f53c6bcc24
+    m_ActionName: Gameplay/Skill[/XInputControllerWindows/buttonSouth,/Keyboard/e]
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
   m_DefaultActionMap: Gameplay
@@ -91,3 +107,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b79ff07d352f46f47ba7a669f2af0ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerInput: {fileID: 0}
