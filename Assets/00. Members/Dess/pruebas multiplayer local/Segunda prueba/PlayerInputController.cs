@@ -30,7 +30,7 @@ public class PlayerInputController : MonoBehaviour
 
     public void onSkill(CallbackContext context)
     {
-        print("skill");
+        //print("skill");
         if (mover.skillActivada)
         {
 

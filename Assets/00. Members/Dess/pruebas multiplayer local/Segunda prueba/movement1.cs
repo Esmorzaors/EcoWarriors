@@ -68,7 +68,7 @@ public class movement1 : MonoBehaviour
 
         }
 
-        //If we are moving with activated skill
+        //If we are 
         if (movement == Vector3.zero && !skillActivada)
         {
             if (tag_mat_walk != null)//If we are walking on a surface that is not a default material.
@@ -79,6 +79,15 @@ public class movement1 : MonoBehaviour
             myanim.SetBool("Walking", false);
             myanim.SetBool("Iddle", true);
 
+        }
+        //Si mantenemos E cada .5s se activa la habilidad
+        if(movement != Vector3.zero && skillActivada)
+        {
+            print("andar y skil");
+            myanim.SetBool("SkillAnim", false);
+            myanim.SetBool("Walking", true);
+            skillActivada = false;
+            speed = 0;
         }
 
 
@@ -132,7 +141,7 @@ public class movement1 : MonoBehaviour
 
         }
 
-        if (Input.GetKeyUp(KeyCode.E))//If we press "E"
+        if (Input.GetKeyUp(KeyCode.E))//If we up "E" button
         {
             tmp = 0;
             speed = 4;
@@ -155,10 +164,7 @@ public class movement1 : MonoBehaviour
         movementInput = direction;
     }
 
-    public void SetBoolSkill(bool skill)
-    {
-        skillActivada = skill;
-    }
+    
 
     public IEnumerator playaudio()
     {
@@ -166,6 +172,20 @@ public class movement1 : MonoBehaviour
         yield return new WaitForSeconds(0.3f);
     }
 
+    public void Skill(InputAction.CallbackContext context)
+    {
+        if (context.started)
+        {
+            print("skill");
+
+        }
+    }
+
+    public virtual void Move(InputAction.CallbackContext context)
+    {
+        print("move");
+        transform.Translate(context.ReadValue<Vector2>() * Time.deltaTime * speed);
+    }
 
 
 }
